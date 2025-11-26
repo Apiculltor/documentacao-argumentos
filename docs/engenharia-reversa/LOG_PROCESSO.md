@@ -803,4 +803,146 @@ Este arquivo registra as decisões, ações e próximos passos de cada sessão d
 
 **Próximos Passos:**
 - Atualizar `PROCESSO_RAIZ.md` (Refinar Seção 7.5).
-- Selecionar o próximo arquivo: `estrategia_medo_legal.md`.
+- Selecionar o próximo arquivo: `responsabilidade_criminal_dta.md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `responsabilidade_criminal_dta.md`.
+- Classificado como **"Argumento por Stakeholder (Jurídico/Proprietário)"**.
+- **Destaques:** Complementa o arquivo anterior (Civil), mas agora o foco é a **liberdade**. Cita artigos do Código Penal (267, 268, 270) que preveem prisão.
+- **Conceito Chave:** "O melhor advogado criminalista custa R$ 200k. Nossos produtos custam R$ 50k".
+- **Insight:** A venda pelo medo (FEAR) tem duas dimensões: Patrimonial (Civil) e Liberdade (Criminal). É preciso saber qual botão apertar dependendo do perfil do cliente.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Expandir a seção "Estratégia de Blindagem" no Manual para incluir explicitamente a "Blindagem Criminal".
+2.  **Decisão:** Criar um "Termômetro de Risco" no Manual para ajudar o vendedor a decidir se usa o argumento Civil ou Criminal.
+3.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Atualizar `PROCESSO_RAIZ.md` com a dimensão Criminal na estratégia de Blindagem.
+- Selecionar o próximo arquivo: `Saneantes _ nutricionista juridico.docx.md` (Já analisado, verificar se há algo a adicionar ou pular para o próximo não analisado).
+
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `estrategia_medo_legal.md`.
+- Classificado como **"Estratégia de Vendas / Ancoragem de Risco"**.
+- **Destaques:** Este documento é a "arma secreta" da conversão. Ele sistematiza o uso do medo (Aversão à Perda) de forma ética.
+- **Pilares do Medo:**
+    1.  **Criminal:** Prisão do dono/RT (Código Penal).
+    2.  **Administrativo:** Multas pesadas (Lei 6.437/77).
+    3.  **Operacional:** Interdição e perda de receita diária.
+- **Técnica FEAR:** Fatos, Evidências, Ameaças, Responsabilidade.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Incorporar a "Técnica FEAR" no Manual como uma metodologia padrão para construção de argumentos de alta conversão.
+2.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Atualizar `PROCESSO_RAIZ.md` (Nova Seção 6.3: Estratégias de Fechamento e Ancoragem).
+- Selecionar o próximo arquivo: `incentivos_fiscais_verdes.md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `incentivos_fiscais_verdes.md`.
+- Classificado como **"Argumento Financeiro / Incentivo Fiscal"**.
+- **Destaques:** Complementa o "Medo" com a "Ganância" (Greed).
+    - **Tese:** Produtos sustentáveis não são custo, são redutores de imposto.
+    - **Mecanismos:** IPTU Verde (Municipal), ISS Verde (Municipal), Lei do Bem (Federal).
+    - **ROI Fiscal:** Mostra que o desconto no imposto pode pagar 100% do custo do produto.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Adicionar ao Manual a estratégia de "Subsídio Cruzado" (usar o dinheiro do governo para pagar o produto).
+2.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Atualizar `PROCESSO_RAIZ.md` (Seção 6.4: Estratégias de Ganho Financeiro).
+- Selecionar o próximo arquivo: `lei_6437_sancoes_sanitarias.md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `lei_6437_sancoes_sanitarias.md`.
+- Classificado como **"Fonte Legal / Tabela de Sanções"**.
+- **Destaques:** É a fonte primária de dados para a estratégia FEAR.
+    - **Lei 6.437/77:** A base federal para todas as multas sanitárias.
+    - **Valores:** R$ 2.000 (Mínima) a R$ 2.000.000 (Máxima).
+    - **Interdição:** Custo de R$ 80k-410k por semana parada.
+    - **ROI Preventivo:** Compara o custo da multa com o custo da prevenção.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Reforçar a Seção 7.3 do Manual para incluir a criação de uma "Tabela de Penalidades" visual como artefato obrigatório.
+2.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Atualizar `PROCESSO_RAIZ.md` (Refinar Seção 7.3).
+- Selecionar o próximo arquivo: `rdc0052_29_09_2014.md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `rdc0052_29_09_2014.md`.
+- Classificado como **"Fonte Legal / Emenda (Escopo Hospitalar)"**.
+- **Destaques:** Esta resolução é uma emenda crítica à RDC 216/2004. Ela expande explicitamente o escopo da RDC 216 para incluir "unidades de alimentação e nutrição dos serviços de saúde".
+- **Insight Estratégico:** Isso elimina a ambiguidade sobre se hospitais devem ou não seguir a RDC 216. Além disso, o Art. 7º reforça que seguir a RDC 216 não isenta o cumprimento de outras normas (ex: CCIH), criando um cenário de "Conformidade em Camadas" que pode ser explorado comercialmente.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Adicionar uma nota em "Mapeamento de Normas" no Manual para sempre verificar emendas que expandem o escopo de atuação (Addressable Market).
+2.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Atualizar `PROCESSO_RAIZ.md` com a nota sobre emendas.
+- Selecionar o próximo arquivo: `REGULATÓRIO - Regulatório - resolucao-rdc-anvisa-n-275-de-21-de-outubro-de-2002.md`.
+
+
+## Sessão: Fase 3 - Síntese e Generalização (Conclusão)
+**Data:** 26/11/2025
+**Objetivo:** Consolidar padrões identificados e alinhar documentação.
+
+### Ações Realizadas
+1.  **Revisão de Frameworks:** Verificados e alinhados `FRAMEWORK_ANALISE_PESTEL.md`, `FRAMEWORK_ANALISE_STAKEHOLDERS.md`, `FRAMEWORK_ANALISE_COMPETITIVA.md`.
+2.  **Consolidação do PROCESSO_RAIZ.md:**
+    *   **Meta-Padrões Integrados:** Criada a seção `4.1. Os Três Pilares da Persuasão` definindo explicitamente **Fear** (Medo/Risco), **Greed** (Ganância/Oportunidade) e **Compliance** (Conformidade).
+    *   **Reestruturação da Fase 2:** Movidas todas as estratégias de argumentação (Blindagem, Subsídio Cruzado, FEAR Technique) para a Fase 2, organizadas sob os novos pilares.
+    *   **Correção de Fluxo:** Movida a seção "Hipóteses de Valor" para a Fase 1 (3.1.1), onde pertence logicamente.
+    *   **Limpeza:** Removidas redundâncias e corrigida a numeração das seções.
+
+### Decisões Importantes
+*   **Adoção dos "Três Pilares":** Decidido que todo argumento deve ser categorizado como Fear, Greed ou Compliance para facilitar a escolha estratégica pelo vendedor.
+*   **Centralização da Estratégia:** A Fase 2 agora contém toda a "inteligência de argumentação", enquanto a Fase 6 foca puramente em "ferramentas táticas" (scripts, battle cards).
+
+### Próximos Passos
+*   Iniciar Fase 4: Documentação Final e Validação.

@@ -88,9 +88,19 @@ O objetivo desta fase é coletar e organizar a matéria-prima para a construçã
     - **Resultado:** Hipóteses de valor muito mais específicas e difíceis de serem copiadas pela concorrência.
 
 - **Artefatos de Referência:**
-    - `FRAMEWORK_ANALISE_PESTEL.md`
     - `Dores - Hierarquia para os diversos setores.md` (Exemplo de resultado)
     - `Discussão Produtos de limpeza.md` (Exemplo de brainstorming)
+
+### 3.1.1. Definição de Hipóteses de Valor (Matriz de Hipóteses)
+- **O que é:** Antes de pesquisar, é preciso saber o que procurar. Esta etapa transforma "ideias vagas" em hipóteses testáveis.
+- **Como fazer:**
+    1.  **Brainstorming de Dores:** Para cada persona mapeada, liste 3-5 dores principais (ex: "Hóspede reclama de cheiro de mofo").
+    2.  **Formulação da Hipótese:** Conecte a dor a uma causa que seu produto resolve. (Ex: "O cheiro de mofo persiste porque o produto atual mascara o odor em vez de eliminar a bactéria").
+    3.  **Criação da Pergunta Investigativa:** O que você precisa descobrir para provar essa hipótese? (Ex: "Existem estudos ligando a satisfação do hóspede à qualidade do ar no quarto?").
+    4.  **Definição da Fonte:** Onde essa resposta pode estar? (Ex: "Reviews do TripAdvisor", "Artigos sobre QAI em hotelaria").
+- **Artefato Gerado:** `Matriz de Hipóteses Investigativas` (Tabela: Persona | Dor | Hipótese | Pergunta | Fonte Alvo).
+
+
 
 ### 3.2. Análise Estratégica de Stakeholders
 - **O que é:** Transformar uma simples lista de contatos em um mapa estratégico da organização do cliente. O objetivo é entender quem são os jogadores, o que os motiva, como priorizá-los e como encontrar um aliado interno que acelere o processo de venda.
@@ -228,29 +238,70 @@ O objetivo desta fase é coletar e organizar a matéria-prima para a construçã
 
 O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de venda persuasivos e customizados.
 
-### 4.1. Reutilização de Blocos de Argumento
+### 4.1. Os Três Pilares da Persuasão (Meta-Padrões)
+- **O que é:** A estrutura fundamental que organiza todos os argumentos de venda. Todo argumento forte deve acionar pelo menos um destes três gatilhos psicológicos e racionais.
+- **Pilar 1: Fear (Medo/Risco)**
+    - **Foco:** Aversão à perda. O custo da inação.
+    - **Dimensões:**
+        - **Civil:** Perda de patrimônio pessoal (Indenizações).
+        - **Criminal:** Perda de liberdade (Prisão por crime contra saúde pública).
+        - **Administrativo:** Perda de operação (Interdição, Multas da VISA).
+    - **Quando usar:** Com proprietários avessos a risco e responsáveis técnicos (RTs).
+- **Pilar 2: Greed (Ganância/Oportunidade)**
+    - **Foco:** Maximização de ganho. O retorno sobre o investimento.
+    - **Dimensões:**
+        - **Financeira:** ROI, Payback, Redução de Custos (OpEx/CapEx).
+        - **Tributária:** Créditos de PIS/COFINS, Incentivos Fiscais (IPTU Verde).
+        - **Fluxo de Caixa:** Prazos estendidos, gestão de estoque.
+    - **Quando usar:** Com proprietários focados em crescimento, CFOs e Compras.
+- **Pilar 3: Compliance (Conformidade/Obrigação)**
+    - **Foco:** Segurança e dever. A necessidade de seguir a regra.
+    - **Dimensões:**
+        - **Regulatória:** RDC 216, RDC 275, Leis Estaduais/Municipais.
+        - **Normativa:** ISO, Acreditações Hospitalares (ONA).
+    - **Quando usar:** Com fiscais internos, gestores de qualidade e em ambientes altamente regulados (Hospitais).
+
+### 4.2. Reutilização de Blocos de Argumento
 - **O que é:** Antes de criar um argumento do zero, verificar se já existe um "bloco" de argumento pronto nos sumários de inteligência.
 - **Como fazer:**
     1. Consulte a base de conhecimento dos "destilados" da Fase 1.3.
     2. Identifique seções ou parágrafos que podem ser diretamente copiados para o novo argumento de vendas.
 - **Exemplo:** A seção "ROI da Prevenção vs. Multa" do arquivo `multas_administrativas_visa.md` é um bloco reutilizável.
 
-### 4.2. Estratégia de Argumentação: O "Argumento-Mestre"
+### 4.3. Estratégia de Argumentação: O "Argumento-Mestre"
 - **Princípio Orientador:** Enquadre o valor antes de discutir o produto. As pessoas compram a solução para a dor delas, não o produto em si.
 - **Como fazer:**
     1. Analise as dores dos stakeholders e os dados da sua pesquisa.
     2. Encontre o "gancho" de maior impacto. Geralmente é um de dois:
-        - **Ganho Financeiro Direto:** Como a solução economiza ou gera dinheiro. Este gancho pode ser abordado de várias formas:
-            *   **Economia Direta (ROI):** Foco na redução de custos com produtos, mão de obra, água, energia, etc.
-            *   **Otimização de Custos Indiretos:** Argumento focado em reduzir custos de transação e gestão, como o conceito de **"Tail Spend"** (o custo oculto de muitas compras pequenas e não gerenciadas).
-            *   **Geração de Benefícios Fiscais:** Mostrar como o uso de produtos (ex: biodegradáveis) pode qualificar a empresa para incentivos fiscais (ex: IPTU Verde, Lei do Bem), transformando uma despesa em um ativo que gera créditos.
-        - **Redução de Risco e Dor de Cabeça:** Como a solução evita multas, interdições, processos, passivos ambientais, etc.
-        - **Valorização da Imagem e "Estética Empresarial":** Como a solução melhora a percepção do cliente e valoriza o patrimônio da empresa. Este é um gancho focado no apelo visual e na experiência do cliente, indo além da limpeza puramente funcional. Envolve a manutenção e o embelezamento de superfícies nobres (mármore, inox, madeira), a apresentação impecável de áreas comuns e a criação de um ambiente que transmite cuidado e qualidade.
+        - **Ganho Financeiro Direto (Greed):** Como a solução economiza ou gera dinheiro.
+        - **Redução de Risco e Dor de Cabeça (Fear):** Como a solução evita multas, interdições, processos, passivos ambientais, etc.
+        - **Valorização da Imagem e "Estética Empresarial" (Greed/Value):** Como a solução melhora a percepção do cliente e valoriza o patrimônio da empresa.
     3. Estruture seu "Argumento-Mestre" em torno deste gancho.
-- **Dica de Mestre:** Para encontrar o gancho, faça duas perguntas: 1) "Qual o maior prejuízo (financeiro ou de reputação) que o cliente pode sofrer e que minha solução evita?" e 2) "Se eu fosse esse stakeholder, o que me tiraria o sono à noite?".
-- **Exemplo:** "Nossa solução não é sobre vender produtos de limpeza, é sobre transformar um custo obrigatório em uma fonte de lucro e tranquilidade."
 
-### 4.3. Desenvolvimento de Argumentos por Stakeholder
+### 4.3. Aplicação do Pilar Fear: Estratégias de Risco e Blindagem
+- **Estratégia 1: Blindagem Civil e Criminal (O "Escudo")**
+    - **O que é:** Focar na proteção do CPF e da Liberdade do stakeholder.
+    - **Dimensão Civil:** "Seu patrimônio pessoal vale mais que a economia em produtos." (Alvo: Nutricionistas/Gerentes).
+    - **Dimensão Criminal:** "O melhor advogado criminalista custa R$ 200k. A prevenção custa R$ 50k." (Alvo: Proprietários).
+    - **Termômetro de Risco:**
+        - *Cliente técnico/burocrático?* -> Use Blindagem Civil.
+        - *Cliente negligente/arriscado?* -> Use Blindagem Criminal (com cautela).
+- **Estratégia 2: Técnica F.E.A.R. (Ancoragem de Risco)**
+    - **O que é:** Metodologia para acelerar o fechamento mostrando que o custo da inação é maior que o custo da solução.
+    - **F (Fatos):** Cite a lei exata (ex: "Art. 267 do Código Penal").
+    - **E (Evidências):** Mostre casos reais (ex: "Restaurante X foi interditado por 15 dias").
+    - **A (Ameaças):** Quantifique o prejuízo (ex: "Multa de R$ 75k + R$ 50k de receita perdida").
+    - **R (Responsabilidade):** Personalize o risco (ex: "O CPF do senhor responde criminalmente").
+
+### 4.4. Aplicação do Pilar Greed: Estratégias Financeiras e de Valor
+- **Estratégia 1: Subsídio Cruzado (Ganho Financeiro)**
+    - **O que é:** Mostrar ao cliente que ele pode usar dinheiro que iria para o governo (impostos) para pagar pelo seu produto.
+    - **Como:** Mapeie incentivos (IPTU Verde, Lei do Bem) e mostre que o desconto fiscal paga o investimento.
+- **Estratégia 2: Engenharia de Valor (Valor Oculto)**
+    - **O que é:** Criar um salto de valor que torna a concorrência irrelevante.
+    - **Ferramentas:** Pensamento de Primeiros Princípios, Conexão de Domínios, Pensamento Lateral.
+
+### 4.6. Desenvolvimento de Argumentos por Stakeholder
 - **O que é:** Criar um documento de argumento específico para cada stakeholder mapeado, traduzindo o "Argumento-Mestre" para a "língua" e as dores daquele profissional.
 - **Como fazer:**
     1. Pegue o "Argumento-Mestre" e adapte-o.
@@ -266,14 +317,14 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
     - **Para o Proprietário:** Fale de ROI, economia de impostos, valorização da marca, redução de "Tail Spend".
     - **Para a Nutricionista:** Fale de conformidade com a RDC 216, eliminação de contaminação cruzada, segurança alimentar e, como visto no exemplo-mestre, a mitigação de sua responsabilidade técnica.
 
-### 4.4. Regra de Ouro: Rastreabilidade Total (Obrigatório)
+### 4.7. Regra de Ouro: Rastreabilidade Total (Obrigatório)
 - **O que é:** A credibilidade do argumento depende da força das suas fontes.
 - **Como fazer:**
     - **TODA** afirmação quantitativa (ex: "economiza 15% de energia"), estatística (ex: "14.6% dos surtos...") ou citação de fonte (ex: "conforme Lei X") deve ser imediatamente seguida por um link de referência `[fonte]`.
     - No final do documento, crie uma seção "Fontes" e liste todas as referências.
 - **Exemplo:** "Equipamentos limpos consomem até 15% menos energia [1]." ... e no final: "[1] Link para o estudo ou artigo."
 
-### 4.5. Engenharia de Valor: Criando Argumentos de Valor Oculto
+### 4.8. Detalhamento: Engenharia de Valor (Ferramentas de Inovação)
 - **Princípio Orientador (Inovação de Valor):** O objetivo desta etapa não é apenas encontrar um "diferencial", mas alcançar a **Inovação de Valor** (um conceito da Estratégia do Oceano Azul). Isso significa criar um salto de valor tão grande para o cliente que a concorrência se torna irrelevante, muitas vezes quebrando o trade-off entre custo e qualidade. Para isso, usamos uma "caixa de ferramentas" de modelos de pensamento.
 
 - **Como fazer (A Caixa de Ferramentas de Pensamento Inovador):**
@@ -305,7 +356,7 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
 
 - **Artefato de Referência:** O arquivo `Saneantes e impactos ocultos- Gestores- juridico,biodigestores etc.docx.md` é uma coleção de exemplos de alto nível desta etapa aplicada.
 
-### 4.6. Validação de Pontos Cegos com IA
+### 4.9. Validação de Pontos Cegos com IA
 - **O que é:** Utilizar um Modelo de Linguagem Grande (LLM) para auditar a pesquisa e os argumentos construídos, com o objetivo de identificar ângulos, riscos, ou oportunidades que não foram considerados.
 - **Como fazer:**
     1.  Compile o argumento central e os principais dados da pesquisa.
@@ -314,7 +365,7 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
 - **Objetivo:** Garantir que a análise seja 360º, descobrindo os "unknown unknowns" (os desconhecidos que nem sabíamos que existiam) e fortalecendo o argumento contra futuras objeções.
 - **Artefato de Referência:** As seções finais do arquivo `Discussão Produtos de limpeza.md` mostram um exemplo real da aplicação desta técnica.
 
-### 4.7. Construção de um Business Case Detalhado
+### 4.10. Construção de um Business Case Detalhado
 - **O que é:** Consolidar todos os argumentos em um documento estratégico, focado em C-Level (diretoria, presidência), que justifique o investimento na solução. Ele traduz benefícios técnicos em impacto de negócio, alinhado às prioridades corporativas modernas.
 - **Como fazer:** Estruture o documento seguindo um fluxo lógico que responda às perguntas de um executivo.
 
@@ -328,7 +379,7 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
     - **Argumento:** "Nossa solução contribui diretamente para a meta de [Meta Estratégica do Cliente] ao [explicar como a solução ajuda]."
     - **Argumento ESG:** "Adicionalmente, a implementação desta solução impacta positivamente as metas de ESG da [Empresa Cliente], conforme detalhado na seção de ganhos."
 
-### 5.1. Estrutura de Blocos do Business Case
+### 4.11. Estrutura de Blocos do Business Case
 - **O que é:** O formato padrão para apresentar o argumento de venda. Ele não é apenas um texto corrido, mas uma construção lógica em blocos.
 - **Estrutura Recomendada (Baseada no modelo "Limpeza Adequada"):**
     1.  **Resumo Estratégico:** O "Elevator Pitch". Qual é o problema, a solução e o impacto financeiro em 1 parágrafo.
@@ -339,7 +390,7 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
     6.  **Bloco D - Normas e Diretrizes:** O "empurrão" legal (ex: "RDC 216 exige isso").
     7.  **Cenários Práticos:** Exemplos de "Antes vs. Depois" com valores estimados.
 
-### 5.2. Calculadora de ROI e TCO
+### 4.12. Calculadora de ROI e TCO
 - **O que é:** Ferramenta para provar que o barato sai caro, traduzindo benefícios técnicos em dinheiro.
 - **Os 3 Pilares da Economia (Metodologia Padrão):**
     1.  **Economia Direta (OpEx):** Redução de consumo de produto, água, energia e horas de mão de obra (eficiência).
@@ -373,7 +424,7 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
     - O arquivo `LIMPEZA E GESTORES- DADOS.md` contém exemplos detalhados e referenciados de business cases estruturados para os setores Hospitalar e de Hotelaria, servindo como um excelente modelo para argumentos focados em dados de mercado.
     - O arquivo `Argumentos - Limpeza adequada com produtos adequados podem diminuir os gastos técnicos.md` é um exemplo-mestre de um Business Case completo, que integra análise técnica profunda (risco de incêndio, quebra de compressores) com o ROI financeiro e ainda fornece um roteiro comercial e respostas a objeções.
 
-### 4.8. Análise de Ativos e Manutenção
+### 4.13. Análise de Ativos e Manutenção
 - **O que é:** Realizar um diagnóstico dos ativos (equipamentos) críticos do cliente para descobrir custos ocultos, riscos operacionais e oportunidades de economia relacionadas à manutenção e ao consumo de energia.
 - **Como fazer:**
     1.  **Mapeamento de Ativos Críticos:** Identifique, junto ao cliente ou através de pesquisa, quais são os equipamentos mais importantes para a operação do nicho (ex: em restaurantes, seriam coifas, câmaras frias, sistemas de ar condicionado; em uma lavanderia industrial, seriam as máquinas de lavar e secadoras).
@@ -387,7 +438,7 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
         *   **Exemplo:** "Um aumento de 20% na conta de energia nos últimos 6 meses, sem um aumento correspondente na produção, é um forte indicador de que as serpentinas dos seus equipamentos de refrigeração estão sujas. Nosso produto [Produto X] junto com o POP de limpeza preventiva pode reverter esse quadro, gerando uma economia estimada de Y por ano, como vimos no Business Case."
 - **Resultado Esperado:** Um "Diagnóstico de Saúde dos Ativos" que serve como uma fonte de dados primários e específicos do cliente para fortalecer o Business Case (Etapa 4.7) e tornar o argumento de ROI irrefutável.
 
-### 4.9. Análise Financeira e Tributária Avançada
+### 4.14. Análise Financeira e Tributária Avançada
 - **O que é:** Descobrir e estruturar argumentos financeiros sofisticados que vão além da simples economia de custos, focando em otimização tributária e melhoria do fluxo de caixa do cliente. Estes são argumentos de alto valor, geralmente direcionados a proprietários, diretores e gerentes financeiros.
 - **Como fazer:** A análise se baseia em três pilares investigativos.
 
@@ -445,12 +496,13 @@ O objetivo é garantir que todos os argumentos sejam consistentes, fáceis de en
 ### 7.3. Guia de Adequação Regulatória (Compliance)
 - **O que é:** O documento que prova que sua solução não é "opcional", mas sim a única forma segura de operar.
 - **Como fazer:**
-    1.  **Mapeie a Norma Local:** Não fique só na lei federal. Busque a Portaria Estadual (ex: CVS 5 em SP) ou Municipal que o fiscal usa.
+    1.  **Mapeie a Norma Local e Emendas:** Não fique só na lei federal. Busque a Portaria Estadual (ex: CVS 5 em SP) ou Municipal que o fiscal usa. **Importante:** Verifique sempre se há emendas posteriores que expandem o escopo (ex: RDC 52/2014 que inclui hospitais na RDC 216).
     2.  **Identifique o "Gap" Técnico:** Onde a norma exige um número exato (ex: "200 ppm", "15 minutos")? Use isso para desqualificar produtos genéricos.
     3.  **Calcule o "ROI da Conformidade":**
         *   Custo da Solução Anual < Custo de 1 Multa Média.
         *   Use valores reais das leis de infração sanitária para ancorar o preço.
-- **Artefato Gerado:** `Guia de Adequação` (Checklist comparativo: Norma vs. Solução Atual vs. Nossa Solução)._destilada", "procedimento", "fonte_bruta", "checklist_referencia")
+    4.  **Crie uma "Tabela de Penalidades":** Um visual simples mostrando Infração -> Multa em R$ -> Consequência (ex: "Produto sem registro = R$ 75k + Apreensão").
+- **Artefato Gerado:** `Guia de Adequação` (Checklist comparativo) e `Tabela de Penalidades` (Visual de impacto)._destilada", "procedimento", "fonte_bruta", "checklist_referencia")
     - `area`: (ex: "geral", "financeiro", "operacional", "legal")
     - `nicho`: (ex: "restaurante", "hospital", "industria")
     - `target_audience`: (ex: ["proprietario", "gerente", "nutricionista"])
@@ -462,6 +514,15 @@ O objetivo é garantir que todos os argumentos sejam consistentes, fáceis de en
 - **O que é:** Formalizar a criação de guias "como fazer" detalhados. Estes guias podem ter dois focos:
     - **POPs Externos (para Clientes):** Ensinam o cliente a executar uma tarefa crítica usando seus produtos, agregando valor à oferta e garantindo o uso correto.
     - **POPs Internos (para Equipes):** Guiam as equipes da própria empresa na execução de processos complexos, como a adequação a uma nova norma.
+    - **POPs Regulatórios (Obrigatórios - RDC 275):** Procedimentos que a lei exige que o cliente tenha. Ajudar o cliente a escrevê-los é um serviço de alto valor. A RDC 275 exige 8 POPs:
+        1.  Higienização de instalações, equipamentos e móveis.
+        2.  Controle de potabilidade da água.
+        3.  Higiene e saúde dos manipuladores.
+        4.  Manejo dos resíduos.
+        5.  Manutenção preventiva e calibração de equipamentos.
+        6.  Controle integrado de vetores e pragas urbanas.
+        7.  Seleção das matérias-primas, ingredientes e embalagens.
+        8.  Programa de recolhimento de alimentos.
 - **Como fazer:**
     1. Identifique uma dor ou requisito legal complexo (externo) ou um processo interno que precise de padronização (interno).
     2. Crie um documento com uma estrutura clara, usando o template abaixo.
@@ -514,6 +575,8 @@ O objetivo desta fase é coletar e analisar sistematicamente o feedback público
 
 O objetivo desta fase é traduzir os argumentos estratégicos em material tático e treinamento para a equipe de vendas.
 
+
+
 ### 7.1. Mapeamento de Objeções
 - **O que é:** Antecipar e listar todas as possíveis objeções, dúvidas ou resistências que um cliente pode apresentar durante a negociação.
 - **Como fazer:**
@@ -522,15 +585,9 @@ O objetivo desta fase é traduzir os argumentos estratégicos em material tátic
     3. Crie um documento e categorize as objeções para fácil consulta (ex: Preço, Necessidade, Concorrência, Timing).
 - **Exemplo:** "É muito caro", "Meu fornecedor atual já me atende bem", "Nunca tive problemas com a fiscalização".
 
-### 3.2. Definição de Hipóteses de Valor (Matriz de Hipóteses)
-- **O que é:** Antes de pesquisar, é preciso saber o que procurar. Esta etapa transforma "ideias vagas" em hipóteses testáveis.
-- **Como fazer:**
-    1.  **Brainstorming de Dores:** Para cada persona mapeada, liste 3-5 dores principais (ex: "Hóspede reclama de cheiro de mofo").
-    2.  **Formulação da Hipótese:** Conecte a dor a uma causa que seu produto resolve. (Ex: "O cheiro de mofo persiste porque o produto atual mascara o odor em vez de eliminar a bactéria").
-    3.  **Criação da Pergunta Investigativa:** O que você precisa descobrir para provar essa hipótese? (Ex: "Existem estudos ligando a satisfação do hóspede à qualidade do ar no quarto?").
-    4.  **Definição da Fonte:** Onde essa resposta pode estar? (Ex: "Reviews do TripAdvisor", "Artigos sobre QAI em hotelaria").
-- **Artefato Gerado:** `Matriz de Hipóteses Investigativas` (Tabela: Persona | Dor | Hipótese | Pergunta | Fonte Alvo).
-- **Exemplo:** O arquivo `Dores - Hierarquia para os diversos setores.md` é um exemplo rico dessa matriz, cobrindo de "Pais preocupados com químicos em escolas" a "Riscos de quedas para idosos".
+
+
+
 
 ### 7.2. Criação de Contra-Argumentos
 - **O que é:** Desenvolver respostas curtas, diretas e persuasivas para cada objeção mapeada.
@@ -579,6 +636,17 @@ O objetivo desta fase é traduzir os argumentos estratégicos em material tátic
     - **Vida Útil e Substituição:** Sinais visuais de desgaste e frequência de troca recomendada.
     - **Comparativo:** Tabela "Material A vs. Material B" (Prós e Contras).
 - **Exemplo:** O arquivo `analise_duvidas_vantagens_especificos_site.md` é o modelo canônico para este artefato, cobrindo de luvas a vassouras com profundidade técnica e foco comercial.
+
+### 7.6. Diagnóstico de Conformidade (Audit Checklist)
+- **O que é:** Um serviço de pré-venda onde você avalia o nível de adequação do cliente às normas sanitárias. Funciona como um "Raio-X" que revela os problemas (dores) que sua solução vai resolver.
+- **Como fazer:**
+    1.  **Use o Padrão Oficial:** Utilize a "Lista de Verificação das Boas Práticas de Fabricação" do Anexo II da RDC 275/2002. É o mesmo checklist que a vigilância sanitária usa.
+    2.  **Aplique o Checklist:** Percorra o estabelecimento (ou peça para o cliente percorrer) marcando "Sim", "Não" ou "Não Aplicável" para itens como pisos, paredes, higiene pessoal, controle de pragas, etc.
+    3.  **Gere o Relatório de Gap:** Identifique onde estão os "Não". Cada "Não" é uma oportunidade de venda.
+        *   *Exemplo:* "Não" em "Higiene das Mãos" -> Venda de Sabonete Antisséptico + Treinamento + POP de Higiene.
+        *   *Exemplo:* "Não" em "Controle de Pragas" -> Venda de Telas Milimétricas + Serviço de Dedetização Parceiro.
+- **Artefato Gerado:** `Relatório de Diagnóstico Sanitário` (Gap Analysis).
+- **Exemplo:** O próprio Anexo II da RDC 275 (arquivo `REGULATÓRIO...rdc-anvisa-n-275...md`) é o template base.
 
 ---
 
