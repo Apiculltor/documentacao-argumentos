@@ -32,4 +32,10 @@ Este documento cataloga todos os arquivos relevantes para o projeto de engenhari
 | `Saneantes _ nutricionista juridico.docx.md` | Argumento por Stakeholder (Jurídico/Nutricionista) | Um exemplo-mestre de como construir um argumento técnico-jurídico para um público específico (Nutricionistas e Advogados), focando na mitigação de riscos legais e responsabilidade profissional. | Análise Concluída |
 | `Saneantes e impactos ocultos- Gestores- juridico,biodigestores etc.docx.md` | Argumento de Valor Oculto | Uma coleção de argumentos de alto nível que conectam saneantes a domínios adjacentes (gestão de ativos, direito tributário, RH) para criar valor onde o cliente não espera. | Análise Concluída |
 | `Arquivos sem tratamento/Dores - Hierarquia para os diversos setores (1).md` | Estratégia / Matriz de Hipóteses | Mapeamento detalhado de dores por persona e setor (Hotéis, Hospitais, Escolas, etc.), com perguntas investigativas e fontes de evidência. Serve como guia para a pesquisa de campo e construção de argumentos. | Análise Concluída |
+| `docs/templates/KIT_ONBOARDING_README.md` | Template (Onboarding v2.0) | Guia de boas-vindas e instruções para o cliente preencher o kit de onboarding. | Criado |
+| `docs/templates/FORMULARIO_1_DADOS_EMPRESA.md` | Template (Onboarding v2.0) | Formulário para coleta de dados cadastrais, tributários e decisores. | Criado |
+| `docs/templates/FORMULARIO_2_INVENTARIO_PRODUTOS.md` | Template (Onboarding v2.0) | Formulário para inventário técnico de produtos (FISPQs, Laudos). | Criado |
+| `docs/templates/FORMULARIO_3_COMPLIANCE_LOGISTICA.md` | Template (Onboarding v2.0) | Formulário para validação de compliance (AFE) e capacidade logística. | Criado |
+| `docs/templates/FORMULARIO_4_INTELIGENCIA_COMERCIAL.md` | Template (Onboarding v2.0) | Formulário para inteligência comercial (Funil, Scripts, Tom de Voz). | Criado |
+| `docs/templates/GUIA_INTERNO_ANALISTA.md` | Template (Onboarding v2.0) | SOP interno para validação e catalogação dos dados recebidos. | Criado |
 | `Arquivos sem tratamento/` | | | A Fazer |

@@ -946,3 +946,31 @@ Este arquivo registra as decisões, ações e próximos passos de cada sessão d
 
 ### Próximos Passos
 *   Iniciar Fase 4: Documentação Final e Validação.
+
+---
+
+### **Data: 2025-11-26 (Criação do Kit de Onboarding v2.0)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- O objetivo foi transformar os antigos templates de SDR (focados em vendas) em um **Kit de Onboarding Técnico** para distribuidoras (focado em engenharia reversa e compliance).
+- Criamos uma suite de 5 documentos (`docs/templates`) que cobrem desde dados tributários até inteligência comercial.
+- O stakeholder solicitou a inclusão de um formulário específico para **Inteligência Comercial** (para treinar futuros agentes SDR) e a adição de **Exemplos Práticos** em todos os formulários para facilitar o preenchimento.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Separar a coleta de dados em "Duros" (Engenharia/Compliance) e "Moles" (Estratégia/Vendas).
+2.  **Ação:** Criação dos seguintes artefatos:
+    - `KIT_ONBOARDING_README.md`: Guia do usuário.
+    - `FORMULARIO_1_DADOS_EMPRESA.md`: Dados cadastrais e tributários.
+    - `FORMULARIO_2_INVENTARIO_PRODUTOS.md`: Inventário técnico e documentos (FISPQ).
+    - `FORMULARIO_3_COMPLIANCE_LOGISTICA.md`: Validação de licenças (AFE) e logística.
+    - `FORMULARIO_4_INTELIGENCIA_COMERCIAL.md`: Mapeamento de funil, scripts, tom de voz e objeções.
+    - `GUIA_INTERNO_ANALISTA.md`: SOP para o time interno validar os dados.
+3.  **Refinamento:** Todos os formulários foram atualizados com exemplos concretos ("O que escrever aqui?") para reduzir a fricção do cliente.
+
+**Próximos Passos:**
+- Validar o kit com um cliente real (piloto).
+- Iniciar a análise dos arquivos restantes da pasta "Arquivos sem tratamento".
