@@ -618,3 +618,189 @@ Este arquivo registra as decisões, ações e próximos passos de cada sessão d
 
 **Próximos Passos:**
 - Iniciar a pesquisa e reflexão para o Tópico 8 do plano de refino: "Sales Enablement".
+
+---
+
+### **Data: 2025-11-26 (Retomada do Projeto)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- O projeto foi retomado. Foi realizada uma análise calma e detalhada da estrutura existente para garantir o alinhamento antes de prosseguir.
+- Verificou-se que o projeto já estava em estágio avançado, com muitos arquivos já analisados e documentados.
+- Foi realizado um novo inventário da pasta `Arquivos com Argumentos - Restaurantes` e comparado com o `INDEX_ARQUIVOS.md`.
+
+**Decisões e Ações Tomadas:**
+1.  **Ação:** O `INDEX_ARQUIVOS.md` foi corrigido para remover uma entrada duplicada (`Saneantes _ nutricionista juridico.docx.md`).
+2.  **Ação:** Um novo arquivo encontrado na pasta `Arquivos sem tratamento` (`Dores - Hierarquia para os diversos setores (1).md`) foi adicionado ao índice e ao Kanban como "A Fazer".
+3.  **Decisão:** O plano original de "Fase 1: Descoberta" foi adaptado para uma verificação de integridade, visto que a descoberta já havia sido feita anteriormente. O foco agora muda imediatamente para a continuação da Fase 2 (Análise).
+
+**Próximos Passos:**
+- Selecionar o próximo arquivo da lista "A Fazer" no Kanban para análise detalhada.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `analise_duvidas_vantagens_especificos_site.md`.
+- Identificamos este documento como um artefato de **Habilitação de Vendas** focado em **Educação Técnica Consultiva**.
+- Diferente de um simples manual de objeções, este arquivo equipa o vendedor para atuar como um consultor, explicando *por que* escolher um produto em detrimento de outro (ex: luva nitrílica vs. látex) e educando o cliente sobre vida útil e manutenção.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** O `PROCESSO_RAIZ.md` será atualizado para incluir a **"Etapa 7.5: FAQ Técnico e Comparativo de Produtos"**.
+2.  **Ação:** Esta nova seção formalizará a criação de guias que respondem a dúvidas técnicas ("Lavar a mão antes da luva?"), comparam materiais ("Vinil vs. Nitrílica") e definem critérios de troca, transformando conhecimento técnico em argumento de venda.
+3.  **Ação:** Os arquivos de controle (`INDEX`, `KANBAN`) foram atualizados.
+
+**Próximos Passos:**
+- Atualizar o `PROCESSO_RAIZ.md` com a nova seção.
+- Selecionar o próximo arquivo para análise conforme o plano (`Arquivos sem tratamento/Dores...`).
+
+---
+
+### **Data: 2025-11-26 (Refinamento de Processo - Feedback do Stakeholder)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- O stakeholder apontou um gap crítico no processo: a origem dos dados para os comparativos de produtos.
+- Os argumentos técnicos e comparativos (como os da Etapa 7.5) dependem diretamente do mix de produtos que o cliente vende.
+- Portanto, é mandatório obter essa lista de produtos no início do projeto, seja por envio direto ou por extração (scraping) do site do cliente.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** O `PROCESSO_RAIZ.md` foi atualizado para incluir a coleta de dados de produtos como pré-requisito.
+2.  **Ação:** Atualizada a **Fase 0 (Briefing)** para incluir a solicitação da URL do site e catálogo de produtos.
+3.  **Ação:** Criada a **"Etapa 3.3: Extração de Dados de Produtos (Scraping e Catalogação)"** na Fase 1, formalizando o processo de transformar o site do cliente em uma base de dados estruturada para análise. (As etapas subsequentes foram renumeradas).
+
+**Próximos Passos:**
+- Retomar o plano de análise original com o arquivo `Arquivos sem tratamento/Dores - Hierarquia para os diversos setores (1).md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `Arquivos sem tratamento/Dores - Hierarquia para os diversos setores (1).md`.
+- Identificamos este documento como uma **"Matriz de Hipóteses Investigativas"**.
+- Ele estrutura o pensamento estratégico antes da pesquisa, conectando: **Persona** -> **Dor Específica** -> **Hipótese de Causa/Solução** -> **Pergunta Investigativa** -> **Fonte de Evidência**.
+- É um artefato crucial para a **Fase 1 (Pesquisa)**, pois direciona *o que* procurar e *onde*.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Formalizar a criação da "Matriz de Hipóteses Investigativas" no `PROCESSO_RAIZ.md` (refinando a atual etapa 3.2).
+2.  **Ação:** O arquivo foi catalogado e movido para "Concluído".
+3.  **Observação:** O arquivo `(1).md` é mais completo que a versão sem número, sendo considerado a versão principal.
+
+**Próximos Passos:**
+- Atualizar o `PROCESSO_RAIZ.md` para detalhar a estrutura da Matriz de Hipóteses.
+- Selecionar o próximo arquivo: `Argumentos - Limpeza adequada com produtos adequados podem diminuir os gastos técnicos.md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `Argumentos - Limpeza adequada com produtos adequados podem diminuir os gastos técnicos.md`.
+- Classificado como **"Business Case Técnico"**.
+- **Destaques:** O documento é um modelo exemplar de como conectar características técnicas (limpeza de serpentinas) a resultados financeiros (economia de energia, redução de quebra).
+- **Estrutura Identificada:**
+    1.  **Tese Central:** Link causal (Sujeira -> Custo).
+    2.  **Blocos de Dor:** Detalhamento técnico dos problemas.
+    3.  **Bloco de Intervenção:** Solução (Produto + Processo).
+    4.  **Bloco Econômico:** ROI, TCO e cenários comparativos.
+    5.  **Bloco Normativo:** Leis e normas que forçam a ação.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Incorporar a estrutura de "Blocos" (Dor, Intervenção, Economia, Normas) no `PROCESSO_RAIZ.md` como o template padrão para Business Cases.
+2.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Refinar a Seção 5 do `PROCESSO_RAIZ.md` com essa estrutura de blocos.
+- Selecionar o próximo arquivo: `argumentos_roi_economico.md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `argumentos_roi_economico.md`.
+- Classificado como **"Argumento Financeiro / Calculadora ROI"**.
+- **Destaques:** Foca exclusivamente na linguagem do decisor financeiro (CFO/Dono). Introduz o conceito de "Venda por ROI" com 3 pilares de economia:
+    1.  **Economia Direta:** Produto vs. Produto + Mão de Obra.
+    2.  **Prevenção de Perdas:** Multas e Interdições (Risco).
+    3.  **Extensão de Vida Útil:** Ativos (Equipamentos).
+- Inclui scripts de fechamento baseados em matemática ("Payback em 4 meses").
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Refinar a seção de "Calculadora de ROI" no Manual para incluir explicitamente esses 3 pilares de economia, pois eles cobrem todo o espectro de valor.
+2.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Atualizar `PROCESSO_RAIZ.md` com os detalhes dos 3 pilares de ROI.
+- Selecionar o próximo arquivo: `cvs_5_2013_sao_paulo.md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `cvs_5_2013_sao_paulo.md`.
+- Classificado como **"Argumento Regulatório / Compliance"**.
+- **Destaques:** Transforma uma norma técnica (CVS 5/2013) em ferramenta de venda.
+    - **Diferenciação:** Mostra onde a norma estadual é mais rígida que a federal (ex: 200-250 ppm de cloro).
+    - **Ancoragem de Medo:** Lista valores exatos de multas (R$ 5k a R$ 500k).
+    - **ROI da Conformidade:** Compara o custo anual da solução (R$ 60k) com o custo de uma única multa grave (R$ 85k+).
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Adicionar ao Manual o conceito de "ROI da Conformidade" e a estratégia de usar normas estaduais/municipais como "gancho de especificidade" (o cliente não pode ignorar a lei local).
+2.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Atualizar `PROCESSO_RAIZ.md` (Seção 7.3 e 3.5).
+- Selecionar o próximo arquivo: `EPIs (Equipamentos de Proteção Individual) – Uso em Cozinhas Profissionais.md`.
+
+---
+
+### **Data: 2025-11-26 (Ciclo de Análise - Fase 2 - Continuação)**
+
+**Participantes:**
+- Everton
+- Mary (Agente IA)
+
+**Resumo da Sessão:**
+- Analisamos o arquivo `EPIs (Equipamentos de Proteção Individual) – Uso em Cozinhas Profissionais.md`.
+- Classificado como **"Guia Técnico / FAQ de EPIs"**.
+- **Destaques:** É um documento de consulta rápida. Diferente do primeiro arquivo analisado (que misturava vendas), este é puramente técnico/educativo.
+- **Estrutura:** Item -> Dúvidas -> Problemas -> Vida Útil -> Materiais.
+- **Utilidade:** Fundamental para a **Fase 4 (Habilitação de Vendas)**, servindo como "cola" para o vendedor responder perguntas técnicas na hora.
+
+**Decisões e Ações Tomadas:**
+1.  **Decisão:** Reforçar a Seção 7.5 do Manual para incluir "Guias de Consulta Rápida" (Cheat Sheets) como um formato essencial de artefato.
+2.  **Ação:** Arquivo catalogado e movido para "Concluído".
+
+**Próximos Passos:**
+- Atualizar `PROCESSO_RAIZ.md` (Refinar Seção 7.5).
+- Selecionar o próximo arquivo: `estrategia_medo_legal.md`.

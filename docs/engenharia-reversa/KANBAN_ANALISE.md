@@ -4,11 +4,6 @@ Este quadro Kanban rastreia o status da análise de cada arquivo individualmente
 
 ## A Fazer
 
-- [ ] `analise_duvidas_vantagens_especificos_site.md`
-- [ ] `Argumentos - Limpeza adequada com produtos adequados podem diminuir os gastos técnicos.md`
-- [ ] `argumentos_roi_economico.md`
-- [ ] `cvs_5_2013_sao_paulo.md`
-- [ ] `EPIs (Equipamentos de Proteção Individual) – Uso em Cozinhas Profissionais.md`
 - [ ] `estrategia_medo_legal.md`
 - [ ] `incentivos_fiscais_verdes.md`
 - [ ] `lei_6437_sancoes_sanitarias.md`
@@ -24,6 +19,8 @@ _Nenhum item em análise no momento._
 ## Concluído
 
 - [x] `argumento_economia_custos.md`
+- [x] `cvs_5_2013_sao_paulo.md`
+- [x] `EPIs (Equipamentos de Proteção Individual) – Uso em Cozinhas Profissionais.md`
 - [x] `multas_administrativas_visa.md`
 - [x] `manual_objecoes_respostas.md`
 - [x] `RDC 216-2004_-_regulamento_tecnico_de_boas_praticas_para_servicos_de_alimentacao.md`
@@ -37,4 +34,7 @@ _Nenhum item em análise no momento._
 - [x] `Saneantes e impactos ocultos- Gestores- juridico,biodigestores etc.docx.md`
 - [x] `Guia de Adequação de Produtos Saneantes à RDC 989_2025 (2).md`
 - [x] `Saneantes _ nutricionista juridico.docx.md`
+- [x] `Argumentos - Limpeza adequada com produtos adequados podem diminuir os gastos técnicos.md`
+- [x] `analise_duvidas_vantagens_especificos_site.md`
+- [x] `Arquivos sem tratamento/Dores - Hierarquia para os diversos setores (1).md`
 - [x] `Argumentos - Limpeza adequada com produtos adequados podem diminuir os gastos técnicos.md`

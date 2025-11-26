@@ -26,7 +26,11 @@ O objetivo desta fase é extrair o conhecimento inicial de um novo cliente (ex: 
         *   **CNPJ:** Número de Cadastro Nacional da Pessoa Jurídica.
         *   **CNAE:** Classificação Nacional de Atividades Econômicas (principal e secundárias).
         *   **Regime Tributário:** Identifique se a empresa é do Simples Nacional, Lucro Presumido ou Lucro Real. Esta informação é **crítica** para determinar quais argumentos tributários são aplicáveis.
-    3.  O objetivo é preencher o máximo de informações possíveis daquele documento (FISPQ, laudos, concorrentes, etc.) diretamente com o conhecimento do cliente.
+    3.  **Coleta de Fontes de Produto (Obrigatório):**
+        *   Solicite a **URL do site** (e-commerce ou institucional) do cliente.
+        *   Solicite a **Tabela de Produtos/Catálogo** completa (Excel, PDF) com especificações técnicas.
+        *   *Nota:* Se o cliente não tiver uma lista organizada, o site será a fonte primária para extração de dados.
+    4.  O objetivo é preencher o máximo de informações possíveis daquele documento (FISPQ, laudos, concorrentes, etc.) diretamente com o conhecimento do cliente.
     4.  As informações coletadas aqui servem como a base para a Fase 1, permitindo validar os dados e aprofundar a pesquisa em fontes externas.
 - **Artefato de Referência:** `FLUXOGRAMA BUSCA POR PRODUTOS.md`
 
@@ -109,7 +113,25 @@ O objetivo desta fase é coletar e organizar a matéria-prima para a construçã
 
 - **Resultado Esperado:** Uma compreensão clara de quem contatar, com que mensagem, em que ordem de prioridade e quem pode ser seu maior aliado no processo, otimizando drasticamente o ciclo de vendas.
 
-### 3.3. Pesquisa e Síntese Aumentada por IA
+### 3.3. Extração de Dados de Produtos (Scraping e Catalogação)
+- **O que é:** Criar uma base de dados estruturada dos produtos que o cliente vende. Sem isso, não é possível criar comparativos técnicos ou argumentos específicos.
+- **Como fazer:**
+    1.  **Verificação de Fonte:**
+        *   Se o cliente enviou tabela/catálogo: Pule para a etapa de organização.
+        *   Se o cliente tem apenas site: É necessário extrair os dados.
+    2.  **Extração (Scraping):**
+        *   Acesse o site do cliente.
+        *   Mapeie as categorias de produtos relevantes (ex: "Limpeza Geral", "EPIs", "Profissional").
+        *   Extraia (manualmente ou via ferramenta de scraping) para cada produto chave:
+            *   Nome Comercial.
+            *   Princípio Ativo / Material (ex: "Cloro", "Látex").
+            *   Diluição / Rendimento.
+            *   Indicação de Uso (conforme rótulo/site).
+    3.  **Organização:**
+        *   Consolide esses dados em uma planilha ou documento mestre.
+        *   Esta base será usada na **Etapa 7.5** para criar os comparativos "Produto A vs. Produto B".
+
+### 3.4. Pesquisa e Síntese Aumentada por IA
 - **O que é:** Um workflow estruturado para usar a Inteligência Artificial como uma parceira, indo da descoberta de fontes de alta qualidade até a síntese de insights estratégicos. O objetivo é otimizar o tempo do analista, focando a cognição humana na análise e não na busca.
 - **Filosofia: O Analista como "Gestor e Curador de IA"**
     - O papel do analista evolui de um mero pesquisador para um **gestor** que direciona a IA e um **curador** que valida e aprofunda seus achados. A IA faz o trabalho pesado de ler e pré-organizar; o humano faz o trabalho estratégico de conectar os pontos.
@@ -157,7 +179,7 @@ O objetivo desta fase é coletar e organizar a matéria-prima para a construçã
         3.  Agora, e somente agora, faça a leitura profunda dos poucos artigos já selecionados pela IA para esses temas. O objetivo é encontrar dados, estatísticas, citações e conexões para construir o argumento de venda.
     - **Exemplo:** A IA clusterizou um tema como "Custo de Infecções Hospitalares". O analista seleciona este tema, lê os 2 artigos que a IA apontou como principais e extrai deles os dados de que uma infecção custa, em média, "R$ X mil por paciente" para usar no cálculo de ROI do seu produto.
 
-### 3.4. Análise Estratégica Competitiva
+### 3.5. Análise Estratégica Competitiva
 - **O que é:** Ir além de simplesmente listar concorrentes. É um processo de múltiplos níveis para entender a estrutura de poder da indústria, mapear as jogadas dos concorrentes e, mais importante, encontrar formas de criar vantagens únicas e tornar a concorrência irrelevante.
 - **Como fazer:** A análise flui do macro para o micro e, em seguida, para o criativo.
 
@@ -178,7 +200,7 @@ O objetivo desta fase é coletar e organizar a matéria-prima para a construçã
 
 - **Resultado Esperado:** Uma compreensão profunda do cenário competitivo que não apenas informa, mas direciona a criação de argumentos de venda únicos e estratégias de diferenciação de longo prazo.
 
-### 3.5. Destilação da Pesquisa (Detalhado)
+### 3.6. Destilação da Pesquisa (Detalhado)
 - **O que é:** Transformar documentos brutos (leis, RDCs, artigos) em "sumários de inteligência" concisos e focados no impacto de negócio para o nicho.
 - **Como fazer:**
     1.  **Leitura Ativa e Mapeamento de Requisitos:**
@@ -306,16 +328,28 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
     - **Argumento:** "Nossa solução contribui diretamente para a meta de [Meta Estratégica do Cliente] ao [explicar como a solução ajuda]."
     - **Argumento ESG:** "Adicionalmente, a implementação desta solução impacta positivamente as metas de ESG da [Empresa Cliente], conforme detalhado na seção de ganhos."
 
-    **3. Análise Financeira Detalhada (TCO, ROI, Payback)**
-    - **Objetivo:** Provar a viabilidade financeira do projeto com métricas padrão de mercado.
-    - **Ação:** Calcule e apresente as três métricas principais.
-        - **Custo Total de Propriedade (TCO):** Mostra o custo real da solução, incluindo custos ocultos.
-            - `TCO = Custos de Aquisição + Custos de Operação (energia, água) + Manutenção + Treinamento + Descarte - Valor Residual`
-        - **Retorno sobre o Investimento (ROI):** A métrica principal de lucratividade.
-            - `ROI (%) = [(Ganhos Obtidos - Custo do Investimento) / Custo do Investimento] * 100`
-        - **Tempo de Retorno (Payback):** Mostra a velocidade do retorno.
-            - `Payback (em meses) = Custo do Investimento / Ganhos Mensais`
+### 5.1. Estrutura de Blocos do Business Case
+- **O que é:** O formato padrão para apresentar o argumento de venda. Ele não é apenas um texto corrido, mas uma construção lógica em blocos.
+- **Estrutura Recomendada (Baseada no modelo "Limpeza Adequada"):**
+    1.  **Resumo Estratégico:** O "Elevator Pitch". Qual é o problema, a solução e o impacto financeiro em 1 parágrafo.
+    2.  **Tese Central e Base Científica:** A prova de que o problema existe (estudos, dados de mercado).
+    3.  **Bloco A - Dor Técnica e Risco:** Detalhamento dos problemas (ex: "Gordura na coifa causa incêndio").
+    4.  **Bloco B - Intervenção:** Como o produto/serviço resolve (ex: "Produto X remove gordura carbonizada em 5 min").
+    5.  **Bloco C - Economia e ROI:** A tradução financeira. (ex: "Evitar 1 incêndio paga 10 anos de produto").
+    6.  **Bloco D - Normas e Diretrizes:** O "empurrão" legal (ex: "RDC 216 exige isso").
+    7.  **Cenários Práticos:** Exemplos de "Antes vs. Depois" com valores estimados.
 
+### 5.2. Calculadora de ROI e TCO
+- **O que é:** Ferramenta para provar que o barato sai caro, traduzindo benefícios técnicos em dinheiro.
+- **Os 3 Pilares da Economia (Metodologia Padrão):**
+    1.  **Economia Direta (OpEx):** Redução de consumo de produto, água, energia e horas de mão de obra (eficiência).
+    2.  **Prevenção de Perdas (Risco):** Valor das multas evitadas, dias parados por interdição e desperdício de insumos.
+    3.  **Extensão de Vida Útil (CapEx):** Adiar a troca de equipamentos caros (ex: coifas, fornos) através da manutenção correta.
+- **Como fazer:**
+    1.  **Levante os Custos Atuais:** Use uma planilha de auditoria para mapear o cenário "As-Is".
+    2.  **Projete o Cenário Futuro:** Aplique os fatores de economia (ex: "Redução de 20% no tempo de limpeza").
+    3.  **Calcule o Payback:** Mostre em quantos meses a economia paga o investimento inicial.
+- **Artefato Gerado:** `Calculadora de ROI` (Planilha com cenários "Pessimista, Realista, Otimista").
     **4. Quantificação de Ganhos (Operacionais e ESG)**
     - **Objetivo:** Detalhar de onde vêm os "Ganhos Obtidos" usados no cálculo do ROI, incluindo benefícios não-financeiros que fortalecem o caso.
     - **Ganhos Operacionais:** Economia de mão de obra (horas), redução de desperdício, aumento da vida útil de ativos, etc.
@@ -408,11 +442,15 @@ O objetivo é garantir que todos os argumentos sejam consistentes, fáceis de en
     6. **Análise de Objeções:** Principais objeções e respostas.
     7. **Call to Action (CTA):** O que o vendedor deve fazer a seguir.
 
-### 5.2. Padrão de Metadados (Obrigatório)
-- **O que é:** Um conjunto de campos para catalogar cada argumento.
-- **Como fazer:** Todo documento deve começar com um bloco de metadados (frontmatter YAML) preenchido.
-- **Campos:**
-    - `tipo`: (ex: "argumento_vendas", "pesquisa_destilada", "procedimento", "fonte_bruta", "checklist_referencia")
+### 7.3. Guia de Adequação Regulatória (Compliance)
+- **O que é:** O documento que prova que sua solução não é "opcional", mas sim a única forma segura de operar.
+- **Como fazer:**
+    1.  **Mapeie a Norma Local:** Não fique só na lei federal. Busque a Portaria Estadual (ex: CVS 5 em SP) ou Municipal que o fiscal usa.
+    2.  **Identifique o "Gap" Técnico:** Onde a norma exige um número exato (ex: "200 ppm", "15 minutos")? Use isso para desqualificar produtos genéricos.
+    3.  **Calcule o "ROI da Conformidade":**
+        *   Custo da Solução Anual < Custo de 1 Multa Média.
+        *   Use valores reais das leis de infração sanitária para ancorar o preço.
+- **Artefato Gerado:** `Guia de Adequação` (Checklist comparativo: Norma vs. Solução Atual vs. Nossa Solução)._destilada", "procedimento", "fonte_bruta", "checklist_referencia")
     - `area`: (ex: "geral", "financeiro", "operacional", "legal")
     - `nicho`: (ex: "restaurante", "hospital", "industria")
     - `target_audience`: (ex: ["proprietario", "gerente", "nutricionista"])
@@ -484,6 +522,16 @@ O objetivo desta fase é traduzir os argumentos estratégicos em material tátic
     3. Crie um documento e categorize as objeções para fácil consulta (ex: Preço, Necessidade, Concorrência, Timing).
 - **Exemplo:** "É muito caro", "Meu fornecedor atual já me atende bem", "Nunca tive problemas com a fiscalização".
 
+### 3.2. Definição de Hipóteses de Valor (Matriz de Hipóteses)
+- **O que é:** Antes de pesquisar, é preciso saber o que procurar. Esta etapa transforma "ideias vagas" em hipóteses testáveis.
+- **Como fazer:**
+    1.  **Brainstorming de Dores:** Para cada persona mapeada, liste 3-5 dores principais (ex: "Hóspede reclama de cheiro de mofo").
+    2.  **Formulação da Hipótese:** Conecte a dor a uma causa que seu produto resolve. (Ex: "O cheiro de mofo persiste porque o produto atual mascara o odor em vez de eliminar a bactéria").
+    3.  **Criação da Pergunta Investigativa:** O que você precisa descobrir para provar essa hipótese? (Ex: "Existem estudos ligando a satisfação do hóspede à qualidade do ar no quarto?").
+    4.  **Definição da Fonte:** Onde essa resposta pode estar? (Ex: "Reviews do TripAdvisor", "Artigos sobre QAI em hotelaria").
+- **Artefato Gerado:** `Matriz de Hipóteses Investigativas` (Tabela: Persona | Dor | Hipótese | Pergunta | Fonte Alvo).
+- **Exemplo:** O arquivo `Dores - Hierarquia para os diversos setores.md` é um exemplo rico dessa matriz, cobrindo de "Pais preocupados com químicos em escolas" a "Riscos de quedas para idosos".
+
 ### 7.2. Criação de Contra-Argumentos
 - **O que é:** Desenvolver respostas curtas, diretas e persuasivas para cada objeção mapeada.
 - **Como fazer:**
@@ -526,6 +574,11 @@ O objetivo desta fase é traduzir os argumentos estratégicos em material tátic
     *   **Quantificar o impacto:** Fotos de equipamentos sujos podem ser ligadas a argumentos de aumento de consumo de energia (Etapa 4.8).
     *   **Personalizar o argumento:** Usar as próprias fotos do cliente para ilustrar a solução proposta.
     *   **Treinamento:** Servir como material de treinamento para novos vendedores sobre o que procurar.
+
+    - **Problemas Comuns:** O que acontece se usar o produto errado/barato (dor).
+    - **Vida Útil e Substituição:** Sinais visuais de desgaste e frequência de troca recomendada.
+    - **Comparativo:** Tabela "Material A vs. Material B" (Prós e Contras).
+- **Exemplo:** O arquivo `analise_duvidas_vantagens_especificos_site.md` é o modelo canônico para este artefato, cobrindo de luvas a vassouras com profundidade técnica e foco comercial.
 
 ---
 
