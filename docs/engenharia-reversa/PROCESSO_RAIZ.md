@@ -1,5 +1,5 @@
 # Manual de Operações: Pesquisa e Desenvolvimento de Argumentos de Venda
-**Versão: 0.2 (Rascunho)**
+**Versão: 1.0 (Oficial)**
 
 ## 1. Princípios Fundamentais da Documentação
 
@@ -246,6 +246,7 @@ O objetivo desta fase é transformar a matéria-prima da Fase 1 em argumentos de
         - **Civil:** Perda de patrimônio pessoal (Indenizações).
         - **Criminal:** Perda de liberdade (Prisão por crime contra saúde pública).
         - **Administrativo:** Perda de operação (Interdição, Multas da VISA).
+        - **Reputacional/Ético:** Perda de registro profissional (CRM, CRMV, CREA) e "morte" da carreira.
     - **Quando usar:** Com proprietários avessos a risco e responsáveis técnicos (RTs).
 - **Pilar 2: Greed (Ganância/Oportunidade)**
     - **Foco:** Maximização de ganho. O retorno sobre o investimento.
@@ -510,7 +511,14 @@ O objetivo é garantir que todos os argumentos sejam consistentes, fáceis de en
     - `... (outros campos a definir)`
 - **Nota:** Esta lista de campos é um ponto de partida e pode ser expandida conforme novas necessidades de categorização e filtragem forem identificadas.
 
-### 5.3. Criação de Procedimentos Operacionais (POPs)
+### 5.3. Estratégia do "Cavalo de Troia" (Venda de Serviços)
+- **O que é:** Em nichos onde a venda direta de produtos é difícil (commodities) ou onde o cliente não percebe valor técnico, use o **Conhecimento** (Serviços) como porta de entrada.
+- **Como fazer:**
+    1.  **Empacote o Conhecimento:** Transforme os POPs e Treinamentos (que você já tem) em um produto: "Consultoria de Adequação Sanitária".
+    2.  **Venda a Solução, Entregue o Produto:** Venda a "Blindagem Jurídica" (Consultoria). Para implementar a blindagem, o cliente *precisa* usar os produtos corretos (os seus).
+    3.  **Exemplo:** "Não estou aqui para vender detergente. Estou aqui para implementar o Protocolo de Segurança que vai impedir que sua clínica seja multada pelo CRMV. Para esse protocolo funcionar, precisamos usar este químico específico."
+
+### 5.4. Criação de Procedimentos Operacionais (POPs)
 - **O que é:** Formalizar a criação de guias "como fazer" detalhados. Estes guias podem ter dois focos:
     - **POPs Externos (para Clientes):** Ensinam o cliente a executar uma tarefa crítica usando seus produtos, agregando valor à oferta e garantindo o uso correto.
     - **POPs Internos (para Equipes):** Guiam as equipes da própria empresa na execução de processos complexos, como a adequação a uma nova norma.
@@ -640,13 +648,19 @@ O objetivo desta fase é traduzir os argumentos estratégicos em material tátic
 ### 7.6. Diagnóstico de Conformidade (Audit Checklist)
 - **O que é:** Um serviço de pré-venda onde você avalia o nível de adequação do cliente às normas sanitárias. Funciona como um "Raio-X" que revela os problemas (dores) que sua solução vai resolver.
 - **Como fazer:**
-    1.  **Use o Padrão Oficial:** Utilize a "Lista de Verificação das Boas Práticas de Fabricação" do Anexo II da RDC 275/2002. É o mesmo checklist que a vigilância sanitária usa.
-    2.  **Aplique o Checklist:** Percorra o estabelecimento (ou peça para o cliente percorrer) marcando "Sim", "Não" ou "Não Aplicável" para itens como pisos, paredes, higiene pessoal, controle de pragas, etc.
-    3.  **Gere o Relatório de Gap:** Identifique onde estão os "Não". Cada "Não" é uma oportunidade de venda.
-        *   *Exemplo:* "Não" em "Higiene das Mãos" -> Venda de Sabonete Antisséptico + Treinamento + POP de Higiene.
-        *   *Exemplo:* "Não" em "Controle de Pragas" -> Venda de Telas Milimétricas + Serviço de Dedetização Parceiro.
+    1.  **Use o Padrão Oficial:** Utilize a "Lista de Verificação das Boas Práticas de Fabricação" do Anexo II da RDC 275/2002.
+    2.  **Aplique o Checklist:** Percorra o estabelecimento marcando "Sim", "Não" ou "Não Aplicável".
+    3.  **Gere o Relatório de Gap (Visual):**
+- **Template Visual de Relatório (Sugestão):**
+
+| Item Avaliado | Status | Risco Identificado | Solução Recomendada |
+| :--- | :---: | :--- | :--- |
+| **1. Higiene das Mãos** | 🔴 NÃO | Risco de contaminação cruzada e multa RDC 216. | Sabonete Antisséptico X + Treinamento de Equipe. |
+| **2. Controle de Pragas** | 🟡 PARCIAL | Telas rasgadas permitem entrada de vetores. | Troca de telas + Reforço no monitoramento. |
+| **3. Documentação (POPs)** | 🟢 SIM | N/A | Manter rotina de atualização. |
+
+- **Legenda:** 🔴 Crítico (Multa Iminente) | 🟡 Atenção (Melhoria Necessária) | 🟢 Conforme.
 - **Artefato Gerado:** `Relatório de Diagnóstico Sanitário` (Gap Analysis).
-- **Exemplo:** O próprio Anexo II da RDC 275 (arquivo `REGULATÓRIO...rdc-anvisa-n-275...md`) é o template base.
 
 ---
 
@@ -660,6 +674,7 @@ O objetivo é obter um entendimento básico do nicho, sua linguagem e seus princ
 
 1.  **Identificar Associações de Classe e Publicações:**
     *   **Ação:** Busque por `"[Nome do Nicho]" associação Brasil` ou `sindicato "[Nome do Nicho]"`.
+    *   **Dica de Ouro:** Diferencie **Sindicatos Patronais** (que defendem os donos de empresas/clínicas) de **Sindicatos Laborais** (que defendem os funcionários). As dores do dono (seu cliente) estarão no site do sindicato patronal (ex: "Sindicato dos Hospitais Veterinários").
     *   **Ação:** Busque por `"revista" [Nome do Nicho]` ou `"blog" [Nome do Nicho]`.
     *   **Resultado:** Uma lista das 2-3 associações e publicações mais relevantes. Explore seus sites em busca de seções como "Notícias", "Legislação", "Estudos de Mercado" ou "Para o Associado".
 
